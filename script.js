@@ -5,7 +5,7 @@ function showGame(game) {
       <h2>Tebak-Tebakan Cinta 💘</h2>
       <p id="quizQ">Kapan tanggal pertama kita kenalan?</p>
       <button onclick="alert('Salah 😢')">10</button>
-      <button onclick="alert('Benar! 😍')"31</button>
+      <button onclick="alert('Benar! 😍')"3</button>
       <button onclick="alert('Salah 😢')">23</button>
       <button onclick="alert('Salah 😢')">2</button>
     `;
