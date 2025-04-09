@@ -3,11 +3,11 @@ function showGame(game) {
   if (game === "quiz") {
     gameArea.innerHTML = `
       <h2>Tebak-Tebakan Cinta 💘</h2>
-      <p id="quizQ">[Pertanyaan kamu di sini]</p>
-      <button onclick="alert('Salah 😢')">A</button>
-      <button onclick="alert('Benar! 😍')">B</button>
-      <button onclick="alert('Salah 😢')">C</button>
-      <button onclick="alert('Salah 😢')">D</button>
+      <p id="quizQ">Kapan tanggal pertama kita kenalan?</p>
+      <button onclick="alert('Salah 😢')">10</button>
+      <button onclick="alert('Benar! 😍')"31</button>
+      <button onclick="alert('Salah 😢')">23</button>
+      <button onclick="alert('Salah 😢')">2</button>
     `;
   } else if (game === "findHeart") {
     let hearts = '';
